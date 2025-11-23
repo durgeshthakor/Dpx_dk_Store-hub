@@ -22,6 +22,6 @@ const storage = getStorage(app);
 const provider = new GoogleAuthProvider();
 
 // ADMIN SETTINGS
-const ADMIN_EMAIL = "Backbanchers403@gmail.com"; // Yaha Apna Email Likho
+const ADMIN_EMAIL = "durgeshbhaithakor@gmail.com"; // Yaha Apna Email Likho
 
 export { auth, db, storage, provider, signInWithPopup, signOut, onAuthStateChanged, collection, addDoc, getDocs, updateDoc, doc, ref, uploadBytes, getDownloadURL, ADMIN_EMAIL, query, orderBy, where, setDoc, getDoc, onSnapshot };
